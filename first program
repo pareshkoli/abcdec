@@ -1,0 +1,18 @@
+a=[]
+b=[]
+for i in range(3):
+    m=int(input("enter a value a:"))
+    n=int(input("enter a value for b:"))
+    a.append(m)
+    b.append(n)
+    print(a,b)
+    t=a+b
+    print(t)
+for i in range(6):
+    for j in range(6):
+        if t[i]<t[j]:
+            s=t[i]
+            t[i]=t[j]
+            t[j]=s
+        print (t)
+
